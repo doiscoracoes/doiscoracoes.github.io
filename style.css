@@ -248,6 +248,27 @@ em {
   }
 }
 
+/* Banner horizontal full-width no topo da seção */
+.section--with-banner {
+  padding-top: 0;
+}
+
+.section-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
+  margin: 0 0 32px;
+}
+
+@media (min-width: 720px) {
+  .section-banner {
+    max-height: 360px;
+    margin-bottom: 48px;
+  }
+}
+
 .cta {
   display: inline-block;
   padding: 14px 32px;

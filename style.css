@@ -210,6 +210,44 @@ em {
   margin-right: auto;
 }
 
+.hero__illustration {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 0 auto 24px;
+}
+
+@media (min-width: 720px) {
+  .hero__illustration {
+    width: 260px;
+    margin-bottom: 32px;
+  }
+}
+
+/* ============================================
+   ILUSTRAÇÕES DE SEÇÃO
+   ============================================ */
+.section-illustration {
+  display: block;
+  width: 220px;
+  height: auto;
+  margin: 0 auto 32px;
+}
+
+.section-illustration--small {
+  width: 180px;
+}
+
+@media (min-width: 720px) {
+  .section-illustration {
+    width: 280px;
+    margin-bottom: 40px;
+  }
+  .section-illustration--small {
+    width: 220px;
+  }
+}
+
 .cta {
   display: inline-block;
   padding: 14px 32px;
